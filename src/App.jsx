@@ -9,7 +9,7 @@ import Guide from './pages/Guide';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/ojapon">
       <div className="min-h-screen bg-white dark:bg-gray-900">
         <Navbar />
         <main>
